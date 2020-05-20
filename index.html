@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Editable Invoice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="billGenerate">
+        <h1>Isha Sweets</h1>
+        <div id="address">Isha Sweets</br>
+            No.487, ASWATH NAGAR MAIN ROAD, MARATHAHALLI</br>
+            BENGALURU 560037</br>
+            Ph No. 08040404071</br>
+            GSTIN:29AAHYY9870PIZS
+        </div>
+        <div id="title" class="billing">BILLING</div>
+
+        <h4>ENTER ITEMS</h4>
+
+        <div id="billEntry">
+            <div id="selectItem">
+                <div class="item">
+                    <p>IDLY----10₹/plate</p>
+                    <div class="price">10</div>
+                    <label>Quantity</label>
+                    <input class="qty" />
+                    <button class="addItem">Add Item</button>
+                </div>
+                <div class="item">
+                    <p>DOSA----15₹/plate</p>
+                    <div class="price">15</div>
+                    <label>Quantity</label>
+                    <input class="qty" />
+                    <button class="addItem">Add Item</button>
+                </div>
+                <div class="item">
+                    <p>VADA----10₹/plate</p>
+                    <div class="price">10</div>
+                    <label>Quantity</label>
+                    <input class="qty" />
+                    <button class="addItem">Add Item</button>
+                </div>
+            </div>
+            <div>
+                <p>TOTAL AMOUNT</p>
+                <input id="totalAmount" />
+                <p>GST-5%</p>
+                <p>ENTER TIPS</p>
+                <input id="tips" /></br>
+                <p>
+                    <input id="r1" type="radio" name="discount" value="0.1"><label for="10">MON-FRI(10%)</label>
+                    <input id="r2" type="radio" name="discount" value="0.05"><label for="5">WEEKENDS(5%)</label></p>
+            </div>
+        </div>
+
+        <div>
+            <button id="print">CLICK HERE TO PRINT BILL</button>
+        </div>
+    </div>
+
+    <div id="billPage">
+        <div id="address">
+            Isha Sweets</br>
+            No.487, ASWATH NAGAR MAIN ROAD, MARATHAHALLI</br>
+            BENGALURU 560037</br>
+            Ph No. 08040404071</br>
+            GSTIN:29AAHYY9870PIZS
+        </div>
+        <div id="title">Tax Invoice</div></br>
+        <div id="invoice">
+            <table id="dat">
+                <tr>
+                    <td class="bold">Invoice #</td>
+                    <td>A-000123</td>
+                </tr>
+                <tr>
+                    <td class="bold">Date</td>
+                    <td id="date">May 15, 2020</td>
+                </tr>
+                <tr>
+                    <td class="bold">Time</td>
+                    <td id="time">04:32 AM</td>
+                </tr>
+            </table>
+        </div>
+        </br>
+        <div id="printT"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

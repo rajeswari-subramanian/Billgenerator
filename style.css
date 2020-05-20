@@ -1,0 +1,84 @@
+          
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#billGenerate {
+    text-align: center;
+    margin: auto;
+    width: 900px;
+
+}
+
+#billPage {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#address {
+    font-size: 14px;
+}
+
+#title {
+    letter-spacing: 10px;
+    border-bottom: dotted;
+}
+
+#billPage {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+    width: 300px;
+}
+
+table th,
+td {
+    border: 1px solid black;
+    padding: 2px;
+    width: 90px
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+#billEntry {
+    display: flex;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+#selectItem {
+    flex-basis: 50%
+}
+
+p {
+    font-weight: bolder;
+}
+
+.qty {
+    width: 50px
+}
+
+.price {
+    display: none
+}
+
+#print {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+
