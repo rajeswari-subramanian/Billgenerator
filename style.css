@@ -2,7 +2,7 @@
     body {
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
-        background-image: url('images/coffee.jpg');
+        background-image: url('assets/images/coffee.jpg');
         background-size: cover;
         color: white
     }
@@ -100,7 +100,7 @@
     body {
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
-        background-image: url('images/coffee.jpg');
+        background-image: url('assets/images/coffee.jpg');
         background-size: cover;
         color: white
     }
@@ -203,7 +203,7 @@
     body {
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
-        background-image: url('images/coffee.jpg');
+        background-image: url('assets/images/coffee.jpg');
         background-size: cover;
         color: white
     }
