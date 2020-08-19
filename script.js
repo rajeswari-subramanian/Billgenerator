@@ -117,24 +117,28 @@ print.addEventListener('click', function () {
         tr.append(td1, td2, td3, td4)
         table.append(tr)
     }
-    var tr = document.createElement('tr')
+    var ttr = document.createElement('tr')
+    ttr.id = "totaltr"
     var td = document.createElement('td')
     td.setAttribute("colspan", 4);
-    td.textContent = "SubTotal(Incl.Tips)" + subTotal
-    tr.append(td)
-    table.append(tr)
-    var tr = document.createElement('tr')
+    td.textContent = `SubTotal(Incl.Tips) : ${subTotal}`
+    ttr.append(td)
+    table.append(ttr)
+    var ttr = document.createElement('tr')
+    ttr.id = "totaltr"
     var td = document.createElement('td')
     td.setAttribute("colspan", 4);
-    td.textContent = "Total(Incl.GST 5%)" + gstTotal
-    tr.append(td)
-    table.append(tr)
-    var tr = document.createElement('tr')
+    td.textContent = `Total(Incl.GST 5%)  :  ${gstTotal}`
+    ttr.append(td)
+    table.append(ttr)
+    var ttr = document.createElement('tr')
+    ttr.id = "totaltr"
     var td = document.createElement('td')
     td.setAttribute("colspan", 4);
-    td.textContent = "Total(Incl.Dicount)" + discTotal
-    tr.append(td)
-    table.append(tr)
+    td.textContent = `Total(Incl.Dicount)  :  ${discTotal}`
+    ttr.append(td)
+    table.append(ttr)
+
     div2.append(table)
 })
 

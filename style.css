@@ -1,84 +1,302 @@
-          
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('images/coffee.jpg');
+        background-size: cover;
+        color: white
+    }
 
-body {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    .outercolor {
+        margin: auto;
+        width: 1000px;
+        border-radius: 250px;
+        background-color: rgba(148, 7, 7, 0.616);
+    }
+
+    #billGenerate {
+        text-align: center;
+        margin: auto;
+        width: 500px;
+    }
+
+    #billPage {
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        background-color: bisque;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    #address {
+        font-size: 14px;
+    }
+
+    #title {
+        letter-spacing: 10px;
+        border-bottom: dotted;
+    }
+
+    #billPage {
+        display: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        table-layout: fixed;
+        width: 300px;
+    }
+
+    table th,
+    td {
+        border: 1px solid black;
+        padding: 2px;
+        width: 90px
+    }
+
+    .bold {
+        font-weight: bolder;
+    }
+
+    #billEntry {
+        display: flex;
+        border: 2px dotted white;
+        font-size: 16px;
+        border-radius: 60px;
+        padding-bottom: 20px;
+    }
+
+    #selectItem {
+        flex-basis: 50%
+    }
+
+    p {
+        font-weight: bolder;
+    }
+
+    .qty {
+        width: 50px
+    }
+
+    .price {
+        display: none
+    }
+
+    #print {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    #totaltr {
+        font-weight: bolder;
+    }
+
 }
 
-#billGenerate {
-    text-align: center;
-    margin: auto;
-    width: 900px;
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('images/coffee.jpg');
+        background-size: cover;
+        color: white
+    }
+
+    .outercolor {
+        margin: auto;
+        width: 1000px;
+        border-radius: 250px;
+        background-color: rgba(148, 7, 7, 0.616);
+    }
+
+    #billGenerate {
+        text-align: center;
+        margin: auto;
+        width: 600px;
+    }
+
+    #billPage {
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        background-color: bisque;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    #address {
+        font-size: 14px;
+    }
+
+    #title {
+        letter-spacing: 10px;
+        border-bottom: dotted;
+    }
+
+    #billPage {
+        display: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        table-layout: fixed;
+        width: 300px;
+    }
+
+    table th,
+    td {
+        border: 1px solid black;
+        padding: 2px;
+        width: 90px
+    }
+
+    .bold {
+        font-weight: bolder;
+    }
+
+    #billEntry {
+        display: flex;
+        border: 2px dotted white;
+        border-radius: 100px;
+        font-size: 16px;
+    }
+
+    #selectItem {
+        flex-basis: 50%
+    }
+
+    p {
+        font-weight: bolder;
+    }
+
+    .qty {
+        width: 50px
+    }
+
+    .price {
+        display: none
+    }
+
+    #print {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    #totaltr {
+        font-weight: bolder;
+
+    }
+
+    .r {
+        display: inline;
+    }
 
 }
 
-#billPage {
-    width: 400px;
-    height: 600px;
-    margin: auto;
-    background-color: bisque;
-    border: 1px solid black;
-    text-align: center;
+@media only screen and (min-width: 992px) {
+
+    body {
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('images/coffee.jpg');
+        background-size: cover;
+        color: white
+    }
+
+    .outercolor {
+        margin: auto;
+        width: 1000px;
+        border-radius: 250px;
+        background-color: rgba(148, 7, 7, 0.616);
+    }
+
+    #billGenerate {
+        text-align: center;
+        margin: auto;
+        width: 800px;
+    }
+
+    #billPage {
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        background-color: bisque;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    #address {
+        font-size: 14px;
+    }
+
+    #title {
+        letter-spacing: 10px;
+        border-bottom: dotted;
+    }
+
+    #billPage {
+        display: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        table-layout: fixed;
+        width: 300px;
+    }
+
+    table th,
+    td {
+        border: 1px solid black;
+        padding: 2px;
+        width: 90px
+    }
+
+    .bold {
+        font-weight: bolder;
+    }
+
+    #billEntry {
+        display: flex;
+        border: 2px dotted white;        
+        border-radius: 100px;
+        font-size: 16px;
+    }
+
+    #selectItem {
+        flex-basis: 50%
+    }
+
+    p {
+        font-weight: bolder;
+    }
+
+    .qty {
+        width: 50px
+    }
+
+    .price {
+        display: none
+    }
+
+    #print {
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    #totaltr {
+        font-weight: bolder;
+
+    }
+
+    #r2 {
+        display: inline;
+    }
+
 }
-
-#address {
-    font-size: 14px;
-}
-
-#title {
-    letter-spacing: 10px;
-    border-bottom: dotted;
-}
-
-#billPage {
-    display: none;
-}
-
-table {
-    border-collapse: collapse;
-    margin: auto;
-    table-layout: fixed;
-    width: 300px;
-}
-
-table th,
-td {
-    border: 1px solid black;
-    padding: 2px;
-    width: 90px
-}
-
-.bold {
-    font-weight: bolder;
-}
-
-#billEntry {
-    display: flex;
-    border: 1px solid black;
-    font-size: 16px;
-}
-
-#selectItem {
-    flex-basis: 50%
-}
-
-p {
-    font-weight: bolder;
-}
-
-.qty {
-    width: 50px
-}
-
-.price {
-    display: none
-}
-
-#print {
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-}
-
-
-
