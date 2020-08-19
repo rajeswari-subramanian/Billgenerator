@@ -121,21 +121,21 @@ print.addEventListener('click', function () {
     ttr.id = "totaltr"
     var td = document.createElement('td')
     td.setAttribute("colspan", 4);
-    td.textContent = `SubTotal(Incl.Tips) : ${subTotal}`
+    td.textContent = `SubTotal(Incl.Tips) : ${subTotal.toFixed(2)}`
     ttr.append(td)
     table.append(ttr)
     var ttr = document.createElement('tr')
     ttr.id = "totaltr"
     var td = document.createElement('td')
     td.setAttribute("colspan", 4);
-    td.textContent = `Total(Incl.GST 5%)  :  ${gstTotal}`
+    td.textContent = `Total(Incl.GST 5%)  :  ${gstTotal.toFixed(2)}`
     ttr.append(td)
     table.append(ttr)
     var ttr = document.createElement('tr')
     ttr.id = "totaltr"
     var td = document.createElement('td')
     td.setAttribute("colspan", 4);
-    td.textContent = `Total(Incl.Dicount)  :  ${discTotal}`
+    td.textContent = `Total(Incl.Dicount)  :  ${discTotal.toFixed(2)}`
     ttr.append(td)
     table.append(ttr)
 
