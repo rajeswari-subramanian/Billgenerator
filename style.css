@@ -27,7 +27,13 @@
         background-color: bisque;
         border: 1px solid black;
         text-align: center;
-        color:black
+        color:black;
+        position: relative;
+    }
+    b{
+        position: absolute;
+        top:0px;
+        right:0px;
     }
 
     #address {
@@ -98,6 +104,7 @@
         font-size:20px;
         font-weight: bolder;
     }
+    
 
 }
 
@@ -130,6 +137,12 @@
         background-color: bisque;
         border: 1px solid black;
         text-align: center;
+        position: relative;
+    }
+    b{
+        position: absolute;
+        top:0px;
+        right:0px;
     }
 
     #address {
@@ -237,6 +250,12 @@
         background-color: bisque;
         border: 1px solid black;
         text-align: center;
+        position: relative;
+    }
+    b{
+        position: absolute;
+        top:0px;
+        right:0px;
     }
 
     #address {

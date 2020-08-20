@@ -141,7 +141,10 @@ print.addEventListener('click', function () {
 
     div2.append(table)
 })
-
+let close = document.querySelector('b')
+close.addEventListener('click', function () {
+    window.location.href = 'index.html'
+})
 var option = document.getElementById('selectItem')
 option.addEventListener('click', dispItem)
 
